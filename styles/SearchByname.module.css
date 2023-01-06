@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jomhuria&family=Lalezar&family=Mochiy+Pop+One&family=Poppins:wght@300&family=Sevillana&display=swap');
+.container{
+    height: 900px;
+   
+}
+.title{
+    margin-top: 50px;
+}
+.formdev{
+    margin-top: 30px;
+}
+
+.formdev form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.formdev input{
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    
+}
+.formdev button{
+    height: 40px;
+    width: 150px;;
+
+}
+.searchdata{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 30px;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid red;
+    font-size: 25px;
+}
+

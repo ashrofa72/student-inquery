@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&family=Lalezar&family=Mochiy+Pop+One&family=Poppins:wght@300&family=Sevillana&display=swap');
+.select{
+    width: 21rem;
+    height: 3rem;
+    color: brown;
+   text-align: center;
+   margin-left: 30rem;
+   text-align: center;
+}
+
+.container h2{
+    font-family: 'Sevillana', cursive;
+    font-size: 40px;
+}

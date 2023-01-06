@@ -1,0 +1,35 @@
+.container{
+    height: 800px;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20px;
+
+}
+.formdev{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: row;
+ 
+
+}
+.formdev input{
+    height: 40px;
+    width: 250px;
+    text-align: center;
+}
+.formdev button{
+    height: 40px;
+    width: 200px;
+}
+
+.formItem{
+    color: blue;
+    padding: 20px;
+}
