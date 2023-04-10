@@ -10,7 +10,6 @@ export default async function handler(req, res) {
         }
     }
 }
-
 // Getting all posts.
 async function getPosts(req, res) {
     

@@ -18,11 +18,17 @@ import Grid from "@mui/material/Unstable_Grid2"; // Grid version 2
 import { connectToDatabase } from "../../lib/mongodb";
 import BackspaceTwoToneIcon from '@mui/icons-material/BackspaceTwoTone';
 import InfoTwoToneIcon from '@mui/icons-material/InfoTwoTone';
+import ForwardToInboxTwoToneIcon from "@mui/icons-material/ForwardToInboxTwoTone";
+
 
 const getinquery = ({ posts }) => {
   const [deleting, setDeleting] = useState(false);
   const [message, setMessage] = useState("");
   const router = useRouter();
+
+  const handleEmail = (postId) => {
+    alert(postId)
+  }
 
   const handledetail = async (postId) => {
     console.log(postId);
@@ -133,6 +139,9 @@ const getinquery = ({ posts }) => {
                       </Button>
                       <Button onClick={() => deletePost(post["_id"])}>
                         <BackspaceTwoToneIcon/>
+                      </Button>
+                      <Button onClick={() => handleEmail(post["_id"])}>
+                        <ForwardToInboxTwoToneIcon/>
                       </Button>
                     </CardActions>
                   </Card>

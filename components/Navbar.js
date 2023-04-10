@@ -22,6 +22,12 @@ const Navbar = () => {
                     <li>
                         <Link href='/SearchByname/'>Search</Link>
                     </li>
+                    <li>
+                        <Link href='/bookstore/'>Books</Link>
+                    </li>
+                    <li>
+                        <Link href='/goldprices/'>Gold</Link>
+                    </li>
                 </ul>
             </nav>
         </div>

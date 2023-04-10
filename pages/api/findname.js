@@ -5,7 +5,6 @@ const ObjectId = require('mongodb').ObjectId;
 export default async function handler(req, res){
 
     try {
-        
         let { db } = await connectToDatabase();
         let stname = req.query.stname
         let post = await db

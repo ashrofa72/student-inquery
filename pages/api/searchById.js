@@ -13,7 +13,6 @@ export default async function handler(req, res) {
 
 // Getting all posts.
 async function getPosts(req, res) {
-    
     try {
         let { db } = await connectToDatabase();
         let _id = req.query._id

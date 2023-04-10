@@ -1,4 +1,5 @@
 import { Typography } from "@mui/material";
+import  Button  from "@mui/material/Button";
 import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import "@fontsource/roboto/400.css";
@@ -38,7 +39,7 @@ const secondtry = ({}) => {
               onChange={(e) => setstName(e.target.value)}
               value={stname}
             />
-            <button onClick={handlesearch}>Search</button>
+            <Button variant='contained' onClick={handlesearch}>Search</Button>
           </form>
         </div>
         <div className={styles.searchdata}>

@@ -138,13 +138,13 @@ const firstpage = ({ posts }) => {
                         </Typography>
                         <Typography variant="h6" color="#083AA9">
                           <strong>Inquery: </strong> {post.stinquery}
+                        </Typography>
+                        <Typography variant="h6" color="red">
+                          <strong>Replay: </strong> {post.streplay}
                           <br />
                           {formatDistanceToNow(new Date(post.createdAt), {
                             addSuffix: true,
                           })}
-                        </Typography>
-                        <Typography variant="h6" color="red">
-                          <strong>Replay: </strong> {post.streplay}
                         </Typography>
                       </CardContent>
                     </Link>

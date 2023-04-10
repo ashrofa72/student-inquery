@@ -1,0 +1,15 @@
+.container{
+    height: 100vh;
+    text-align: center;
+}
+.datadev{
+   margin: 40px 50px;
+}
+.img {
+    object-fit:fill;
+    padding: 20px;
+    width: 200px;
+    margin-left: 60px;
+    
+    
+}

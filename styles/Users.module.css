@@ -12,3 +12,12 @@
     font-family: 'Sevillana', cursive;
     font-size: 40px;
 }
+.radio{
+    text-align: center;
+    font-size: 25px;
+    size: 20px;
+}
+.radio input[type="radio"] {
+    transform: scale(1.5); /* increase the size of the radio button */
+    margin-right: 10px; /* add some space between the radio button and the label */
+  }
